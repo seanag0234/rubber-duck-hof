@@ -1,11 +1,12 @@
     .wrapper {
         text-align: center;
         display: grid;
-        grid-gap: 20px;
+        grid-gap: 10px;
         grid-template-columns: 1fr;
         grid-template-areas:
                     "nav"
                     "title"
+                    "home-pic"
                     "info"
                     "login-buttons"
                     "footer"
@@ -28,6 +29,15 @@
 
     #info {
         grid-area: info;
+        margin-top: 0;
+    }
+
+    #home-pic {
+        grid-area: home-pic;
+    }
+
+    img {
+        max-width: 400px;
     }
 
     /*@media (min-width: 500px) {*/
