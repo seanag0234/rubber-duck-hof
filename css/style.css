@@ -12,10 +12,12 @@ button {
 .login {
     background-color: #F3FFE2;
 }
-
+#info {
+    font-size: 20px;
+}
 body {
     padding: 24px;
-    background: whitesmoke;
+    /*background: whitesmoke;*/
     font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
     color: gray;
     line-height: 1.5;
@@ -29,6 +31,10 @@ body {
 .home-page-image {
     height: 60%;
     width: 60%;
+}
+
+img {
+    padding: 24px;
 }
 
 nav ul {

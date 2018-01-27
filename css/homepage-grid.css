@@ -6,6 +6,7 @@
         grid-template-areas:
                     "nav"
                     "title"
+                    "info"
                     "login-buttons"
                     "footer"
     }
@@ -23,6 +24,10 @@
     }
     #footer {
         grid-area: footer;
+    }
+
+    #info {
+        grid-area: info;
     }
 
     /*@media (min-width: 500px) {*/
