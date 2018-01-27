@@ -1,0 +1,96 @@
+    .wrapper {
+        text-align: center;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+                    "nav"
+                    "title"
+                    "login-buttons"
+                    "footer"
+    }
+
+    #login-buttons {
+        grid-area: login-buttons;
+    }
+
+    #title {
+        grid-area: title;
+    }
+
+    #nav {
+        grid-area: nav;
+    }
+    #footer {
+        grid-area: footer;
+    }
+
+    /*@media (min-width: 500px) {*/
+    /*.wrapper {*/
+    /*text-align: center;*/
+    /*grid-template-columns: 4fr 4fr;*/
+    /*display: grid;*/
+    /*!*object-fit: fill;*!*/
+    /*!*grid-gap: 20px;*!*/
+    /*grid-template-areas:*/
+    /*"thumbnail1" "thumbnail5"*/
+    /*"thumbnail2" "thumbnail6"*/
+    /*"thumbnail3" "thumbnail7"*/
+    /*"thumbnail4" "thumbnail8"*/
+    /*"thumbnail9";*/
+    /*}*/
+    /*img {*/
+    /*max-width: 200px;*/
+    /*}*/
+    /*}*/
+
+    /*@media (min-width: 900px) {*/
+    /*.wrapper {*/
+    /*text-align: center;*/
+    /*grid-template-columns: 4fr 4fr 4fr;*/
+    /*display: grid;*/
+    /*grid-template-areas:*/
+    /*"thumbnail1" "thumbnail4" "thumbnail7"*/
+    /*"thumbnail2" "thumbnail5" "thumbnail8"*/
+    /*"thumbnail3" "thumbnail6" "thumbnail9"*/
+    /*}*/
+    /*.wrapper img {*/
+    /*max-width: 300px;*/
+    /*}*/
+    /*}*/
+    /*@media (min-width: 1500px) {*/
+    /*.wrapper {*/
+    /*text-align: center;*/
+    /*grid-template-columns: 4fr 4fr 4fr;*/
+    /*display: grid;*/
+    /*grid-template-areas:*/
+    /*"thumbnail1" "thumbnail4" "thumbnail7"*/
+    /*"thumbnail2" "thumbnail5" "thumbnail8"*/
+    /*"thumbnail3" "thumbnail6" "thumbnail9"*/
+    /*}*/
+    /*.wrapper img {*/
+    /*max-width: 475px;*/
+    /*}*/
+    /*}*/
+
+    /*@media (min-width: 1800px) {*/
+        /*.wrapper {*/
+            /*text-align: center;*/
+            /*grid-template-columns: 4fr 4fr 4fr;*/
+            /*display: grid;*/
+            /*grid-template-areas:*/
+                    /*"thumbnail1" "thumbnail4" "thumbnail7"*/
+                    /*"thumbnail2" "thumbnail5" "thumbnail8"*/
+                    /*"thumbnail3" "thumbnail6" "thumbnail9"*/
+        /*}*/
+        /*.wrapper img {*/
+            /*max-width: 600px;*/
+        /*}*/
+    /*}*/
+
+    /*img {*/
+    /*border: 1px solid #ddd; !* Gray border *!*/
+    /*border-radius: 4px;  !* Rounded border *!*/
+    /*padding: 5px; !* Some padding *!*/
+    /*!*width: 20%; !* Set a small width *!*!*/
+    /*}*/
