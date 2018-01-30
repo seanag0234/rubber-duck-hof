@@ -7,6 +7,7 @@
     grid-template-areas:
             ". nav nav nav ."
             "title title title title title"
+            ". . description .  ."
             ". form form form ."
             "footer footer footer footer footer"
 }
@@ -21,6 +22,12 @@
 #footer {
     grid-area: footer;
 }
+
+#description {
+    grid-area: description;
+    font-size: 22px;
+}
+
 #form {
     grid-area: form;
 }
@@ -28,11 +35,15 @@
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    /*width: 400px;*/
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+}
+
+.short-input {
+    width: 300px;
 }
 
 form div + div {
@@ -52,7 +63,7 @@ input, textarea {
     font: 1em sans-serif;
 
     /* To give the same size to all text fields */
-    width: 300px;
+    width: 500px;
     box-sizing: border-box;
 
     /* To harmonize the look & feel of text field border */
