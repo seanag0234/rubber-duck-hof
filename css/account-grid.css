@@ -13,21 +13,21 @@
             ". . footer . ."
 }
 
-@media (min-width: 1800px){
-    .wrapper {
-        text-align: center;
-        display: grid;
-        justify-items: center;
-        grid-gap: 20px;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas:
-                ". nav nav nav ."
-                ". title title title ."
-                ". favorite-duck contact  profile-pic ."
-                ". . footer . ."
-    }
-
-}
+/*@media (min-width: 1800px){*/
+    /*.wrapper {*/
+        /*text-align: center;*/
+        /*display: grid;*/
+        /*justify-items: center;*/
+        /*grid-gap: 20px;*/
+        /*grid-template-columns: repeat(5, 1fr);*/
+        /*grid-template-areas:*/
+                /*". nav nav nav ."*/
+                /*". title title title ."*/
+                /*". favorite-duck contact  profile-pic ."*/
+                /*". . footer . ."*/
+    /*}*/
+/**/
+/*}*/
 
 div {
     font-size: 20px;
