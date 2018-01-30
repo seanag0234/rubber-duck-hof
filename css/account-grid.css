@@ -6,9 +6,13 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
             ". nav nav nav ."
-            ". . title . ."
-            ". . profile-pic . ."
+            ". title title title ."
+            ". contact favorite-duck  profile-pic ."
             ". . footer . ."
+}
+
+div {
+    font-size: 22px;
 }
 
 #title {
@@ -30,10 +34,16 @@
 #edit {
     padding: 0;
 }
-/*#edit {*/
-    /*grid-area: edit;*/
-/*}*/
 
+#contact {
+    grid-area: contact;
+    text-align: left;
+}
+
+.vertical-align {
+    vertical-align: center;
+    justify-self: center;
+}
 button {
     background-color: #1695A3;
     color: white;
@@ -43,4 +53,39 @@ button {
 button:hover {
     background-color: #ACF0F2;
     color: black;
+}
+
+.favorite-wrapper {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    /*grid-gap: 20px;*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+                "favorite-title favorite-title"
+                "favorite-img favorite-img"
+                "favorite-desc favorite-desc"
+}
+
+#favorite-duck {
+    grid-area: favorite-duck;
+    /*padding-top: 24px;*/
+}
+
+#favorite-img {
+    max-width: 300px;
+    grid-area: favorite-img;
+    padding: 0;
+}
+
+#favorite-title {
+    grid-area: favorite-title;
+}
+
+#favorite-desc {
+    grid-area: favorite-desc;
+    text-align: left;
+    padding-left: 24px;
+    font-size: 22px;
+
 }
