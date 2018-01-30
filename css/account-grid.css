@@ -23,10 +23,11 @@
         /*grid-template-areas:*/
                 /*". nav nav nav ."*/
                 /*". title title title ."*/
-                /*". favorite-duck contact  profile-pic ."*/
+                /*". . profile-pic . ."*/
+                /*". . favorite-duck contact . ."*/
                 /*". . footer . ."*/
     /*}*/
-/**/
+
 /*}*/
 
 div {

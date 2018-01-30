@@ -7,7 +7,7 @@
     grid-template-areas:
             ". nav nav nav ."
             "title title title title title"
-            ". . description .  ."
+            ". description description description ."
             ". form form form ."
             "footer footer footer footer footer"
 }
