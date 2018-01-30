@@ -1,0 +1,87 @@
+.wrapper {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+            ". nav nav nav ."
+            "title title title title title"
+            ". . hof1 . ."
+            ". . hof2 . ."
+            ". . hof3 . ."
+            ". . hof4 . ."
+            ". . hof5 . ."
+            ". . hof6 . ."
+            ". . hof7 . ."
+            "footer footer footer footer footer"
+}
+
+@media (min-width: 1800px){
+    .wrapper {
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        grid-gap: 30px;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+                ". nav nav nav ."
+                "title title title title title"
+                ". hof1 hof2 hof4 ."
+                ". hof5 hof6 hof7 ."
+                ". . hof3 . ."
+                "footer footer footer footer footer"
+    }
+    .padding-top {
+        padding-top: 20px;
+    }
+}
+
+div {
+    font-size: 22px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#title {
+    grid-area: title;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#hof1 {
+    grid-area: hof1;
+}
+
+#hof2 {
+    grid-area: hof2;
+}
+
+#hof3 {
+    grid-area: hof3;
+}
+
+#hof4 {
+    grid-area: hof4;
+}
+
+#hof5 {
+    grid-area: hof5;
+}
+
+#hof6 {
+    grid-area: hof6;
+}
+
+#hof7 {
+    grid-area: hof7;
+}
