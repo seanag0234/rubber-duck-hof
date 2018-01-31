@@ -17,6 +17,27 @@
             "footer footer footer footer footer"
 }
 
+@media (min-width: 1000px){
+    .wrapper {
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        grid-gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+                "nav nav nav nav"
+                "title title title title"
+                ". hof1 hof2 ."
+                ". hof4 hof5 ."
+                ". hof6 hof7 ."
+                ". hof3 . ."
+                "footer footer footer footer"
+    }
+    .padding-top {
+        padding-top: 20px;
+    }
+}
+
 @media (min-width: 1800px){
     .wrapper {
         text-align: center;
